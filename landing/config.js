@@ -11,12 +11,12 @@ window.LANDING_CONFIG = {
   brandEn: 'RUN JIN BU',
   tagline: '专为小微会计打造的发票凭证助手',
   subTagline: '一键导入发票 / 银行流水 / 回单，自动生成凭证、总账、明细账',
-  version: 'v1.0.0.10',
+  version: 'v1.0.0.12',
   releaseDate: '2026-06-09',
   // 下载链接（替换为新版本时只需改这两行）
   downloads: {
-    windows: 'https://github.com/wuzhenmin/fapiao_assistant_release/releases/download/v1.0.0.10/-windows.zip',
-    macos:   'https://github.com/wuzhenmin/fapiao_assistant_release/releases/download/v1.0.0.10/-macos.zip',
+    windows: 'https://github.com/wuzhenmin/fapiao_assistant_release/releases/download/v1.0.0.12/-windows.zip',
+    macos:   'https://github.com/wuzhenmin/fapiao_assistant_release/releases/download/v1.0.0.12/-macos.zip',
   },
   // 所有版本入口（可选）
   releasesUrl: 'https://github.com/wuzhenmin/fapiao_assistant_release/releases',

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="description" content="润金簿 · 专为小微会计打造的发票凭证助手。自动识别发票/银行流水/回单，一键生成凭证、总账、明细账。" />
+  <title>润金簿 · 发票凭证助手 | 立即下载</title>
+  <link rel="icon" href="assets/app.png" />
+  <link rel="apple-touch-icon" href="assets/app.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 顶部 Hero -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-icon-wrap">
+        <img src="assets/app.png" alt="润金簿" class="hero-icon" />
+      </div>
+      <h1 class="hero-title" id="brand">润金簿</h1>
+      <div class="hero-sub-en" id="brand-en">RUN JIN BU</div>
+      <p class="hero-tagline" id="tagline">专为小微会计打造的发票凭证助手</p>
+      <p class="hero-sub-tagline" id="sub-tagline">一键导入发票 / 银行流水 / 回单，自动生成凭证、总账、明细账</p>
+
+      <div class="hero-meta">
+        <span class="hero-version" id="version">v1.0.0.10</span>
+        <span class="hero-dot">·</span>
+        <span class="hero-date" id="release-date">2026-06-09</span>
+      </div>
+
+      <div class="cta-group">
+        <a id="btn-windows" class="cta-btn cta-windows" href="#" target="_blank" rel="noopener">
+          <span class="cta-icon">⊞</span>
+          <span class="cta-text">
+            <span class="cta-title">下载 Windows 版</span>
+            <span class="cta-sub">.zip · 解压即用</span>
+          </span>
+        </a>
+        <a id="btn-macos" class="cta-btn cta-macos" href="#" target="_blank" rel="noopener">
+          <span class="cta-icon"></span>
+          <span class="cta-text">
+            <span class="cta-title">下载 macOS 版</span>
+            <span class="cta-sub">.zip · 解压拖入应用</span>
+          </span>
+        </a>
+      </div>
+
+      <div class="hero-tip" id="auto-tip"></div>
+      <a id="all-releases" class="hero-link" href="#" target="_blank" rel="noopener">查看历史版本 →</a>
+    </div>
+    <div class="hero-bg-glow"></div>
+  </header>
+
+  <!-- 核心特性 -->
+  <section class="section">
+    <div class="section-inner">
+      <h2 class="section-title">为什么选择润金簿</h2>
+      <p class="section-sub">让记账从「手工录入」回归到「核对确认」</p>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-emoji">🧾</div>
+          <h3>一键导入发票</h3>
+          <p>支持 PDF / 图片（拍照）/ ZIP / Word / 文件夹批量导入，自动识别发票号、金额、税额、买卖方信息</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-emoji">🏦</div>
+          <h3>银行流水自动入账</h3>
+          <p>Excel / PDF / 图片流水通用解析，按往来对象自动套用应收 / 应付 / 银行存款科目</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-emoji">📎</div>
+          <h3>电子回单自动匹配</h3>
+          <p>建行 / 招行 / 中行回单按交易流水号自动匹配挂载，凭证附件可随时点开查看</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-emoji">⚖️</div>
+          <h3>多准则贯通做账</h3>
+          <p>企业准则 / 小企业准则 / 民间非营利 / 农民合作社，按建账时选择的准则套用对应科目体系</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-emoji">📊</div>
+          <h3>总账 · 明细账</h3>
+          <p>金蝶 KIS 风格的总账与明细账，按月汇总「本期合计 / 本年累计」，含上年结转与对方科目</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-emoji">🔒</div>
+          <h3>数据本地存储</h3>
+          <p>所有数据保存在本机数据库，不上传云端，账套以 SQLite 文件管理，可独立备份迁移</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工作流 -->
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title">三步完成一个月做账</h2>
+      <p class="section-sub">从凭证到报表，全流程自动化</p>
+      <div class="step-grid">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h3>建账</h3>
+          <p>分步向导：账套基本信息 → 会计准则 / 纳税人身份 → 启用会计期间，1 分钟完成新账套创建</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h3>导入凭据</h3>
+          <p>发票、银行流水、电子回单、期初余额，全部支持图片拍照多次累计导入，识别失败也能手动补录</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h3>生成账簿</h3>
+          <p>自动生成凭证 → 总账 → 明细账 → 利润表 / 资产负债表，凭证附件可点开核对原始单据</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 适用人群 -->
+  <section class="section">
+    <div class="section-inner">
+      <h2 class="section-title">谁在使用润金簿</h2>
+      <div class="target-grid">
+        <div class="target-card">
+          <div class="target-emoji">👩‍💼</div>
+          <h3>小微会计</h3>
+          <p>负责多家小微企业账套的代账会计，按公司分账套独立管理</p>
+        </div>
+        <div class="target-card">
+          <div class="target-emoji">🏢</div>
+          <h3>个体工商户</h3>
+          <p>没有专职会计也能自己做账，发票自动识别、凭证自动生成</p>
+        </div>
+        <div class="target-card">
+          <div class="target-emoji">🌾</div>
+          <h3>非营利 / 合作社</h3>
+          <p>支持民间非营利组织会计制度、农民专业合作社制度的专属科目体系</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 底部 CTA -->
+  <section class="bottom-cta">
+    <div class="bottom-cta-inner">
+      <h2>立即体验</h2>
+      <p>新装免激活试用，识别发票、生成凭证、查看账簿全功能开放</p>
+      <div class="cta-group">
+        <a id="btn-windows-2" class="cta-btn cta-windows" href="#" target="_blank" rel="noopener">
+          <span class="cta-icon">⊞</span>
+          <span class="cta-text"><span class="cta-title">下载 Windows 版</span></span>
+        </a>
+        <a id="btn-macos-2" class="cta-btn cta-macos" href="#" target="_blank" rel="noopener">
+          <span class="cta-icon"></span>
+          <span class="cta-text"><span class="cta-title">下载 macOS 版</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <img src="assets/app.png" alt="" class="footer-icon" />
+      <div class="footer-meta">
+        <div class="footer-brand" id="footer-brand">润金簿</div>
+        <div class="footer-tagline" id="footer-tagline">发票凭证助手</div>
+      </div>
+      <div class="footer-links" id="footer-links"></div>
+    </div>
+    <div class="footer-copy">© 润金簿 · 数据本地存储 · 不上传任何云端</div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
